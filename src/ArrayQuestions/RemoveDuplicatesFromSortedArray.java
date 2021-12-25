@@ -14,7 +14,7 @@ public class RemoveDuplicatesFromSortedArray {
             return new Integer[0];
         }
 
-        List<Integer> result = new ArrayList<Integer>();
+        List<Integer> result = new ArrayList<>();
         result.add(arr[0]);
         int lastItem = arr[0];
 
