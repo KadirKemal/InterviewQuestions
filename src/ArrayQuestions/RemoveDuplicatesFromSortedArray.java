@@ -18,7 +18,7 @@ public class RemoveDuplicatesFromSortedArray {
         result.add(arr[0]);
         int lastItem = arr[0];
 
-        for(int i=1; i<arr.length-1; i++){
+        for(int i=1; i<arr.length; i++){
             if(lastItem != arr[i]){
                 lastItem = arr[i];
                 result.add(lastItem);
