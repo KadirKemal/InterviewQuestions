@@ -6,7 +6,6 @@ import java.util.Set;
 public class CheckStringHasRepeatingCharacters {
 
     public static boolean checkRepeatingCharactersWithLoops(String s){
-        Set<String> set = new HashSet<>();
         for(int i=0; i<s.length(); i++){
             for(int j=i+1; j<s.length(); j++){
                 if(s.charAt(i) == s.charAt(j)){

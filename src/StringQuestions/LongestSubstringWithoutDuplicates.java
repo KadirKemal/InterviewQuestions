@@ -7,7 +7,7 @@ import java.util.Set;
 
 public class LongestSubstringWithoutDuplicates {
 
-    public static String longestSubstring(String s){
+    public static String longestSubstringWithoutDuplicates(String s){
         String result = "";
 
         int head = 0;
@@ -37,8 +37,8 @@ public class LongestSubstringWithoutDuplicates {
     }
 
     public static void main(String args[]) {
-        System.out.println(longestSubstring("abacdcbabc"));
-        System.out.println(longestSubstring("aaa"));
-        System.out.println(longestSubstring("ababcb"));
+        System.out.println(longestSubstringWithoutDuplicates("abacdcbabc"));
+        System.out.println(longestSubstringWithoutDuplicates("aaa"));
+        System.out.println(longestSubstringWithoutDuplicates("ababcb"));
     }
 }
